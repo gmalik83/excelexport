@@ -79,7 +79,7 @@ app.post('/uploadfile', uploads.single('uploadfile'), (req, res) => {
     if (err) {
       console.log(err);
     } else {
-      res.sendFile(__dirname + '/index.html');
+      res.redirect('/');
     }
   });
   // res.send('File Uploaded Successfully');
