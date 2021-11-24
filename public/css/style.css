@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+.top-container {
+  background-color: #d6b315;
+}
+h2 {
+  margin-left: 100px;
+}
+a {
+  color: #00b7ff;
+}
+.form-fill {
+  text-align: center;
+  margin: auto;
+  width: 85%;
+  border: 5px dashed lightgray;
+  height: 200px;
+}
+input[type='file'] {
+  display: none;
+  padding: 20px;
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+input[type='submit'] {
+  background-color: #4caf50; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
